@@ -1,0 +1,70 @@
+<?php
+// configuration des pages
+$id = 9;
+require('./Parametre/Settings.html');
+
+require('./Actions/Sessions.html');
+
+// Page Header
+include('./Includes/Header.html'); 
+?>
+
+<!-- Image de couverture -->
+<style>:root {--pg-bg-img: url(../../Images/Bg/13.jpg) no-repeat;--light-color : #ffffff;--pg-bg-color : #d4bfac;}</style>
+
+<!-- Page titre -->
+<section class="page-titre page-cover">
+    <div class="light-cover">
+        <div class="container text-left">
+			<div class="page-cover-titre"><h2>Rejoignez l’équipe</h2></div>
+        </div>
+    </div>
+</section>
+
+<!-- Promesses - Section -->
+<section>
+    <div class="container">
+        <div class="align-items-center pt-25">
+                <div class="row text-black">
+                    <div class="col-md-4 col-lg-4 wow fadeInUp">
+					<div class="intro-bleu-bg">
+                        <h4 class="intro-contenu-titre">Nos promesses</h4>
+							<ul class="intro-list">
+  								<li>Accompagnement quotidien</li>
+  								<li>L’appui à la souscription</li>
+								<li>La rapidité et l’efficacité dans le <br><span class="ml-24">règlement des sinistres</span></li>
+							</ul>  
+					</div>
+                    </div>
+                    <div class="col-md-8 col-lg-8 wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
+                        <div class="mb-2 intro-contenu">
+                            <h3 class="intro-contenu-titre">Pourquoi penser à rejoindre l’équipe Ocealiz ? </h3>
+                            <p class="intro-contenu-parag">Une formation continue pour nos équipes, une procédure de travail en ligne avec les exigences réglementaires, proximité du management et des opportunités de développement de carrière.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team - Section -->
+<section class="gris-light-bg team-section">
+	<div class="container">
+		<div class="row text-black">
+			<div class="col-md-6 col-lg-6 text-center">
+				<img class="team-image" src="./Images/Bg/la-team.jpg" />
+			</div>
+			<div class="col-md-6 col-lg-6 titre-px">
+				<label class="ttl-frst">La</label>
+				<label class="ttl-sec">Team</label>
+			</div>
+		</div>
+	</div>
+</section>
+<?php 
+// Avantages - Section
+include('./Includes/Avantages.html');
+
+// Page Footer
+include('./Includes/Footer.html'); 
+?>

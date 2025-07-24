@@ -1,0 +1,116 @@
+<?php
+// configuration des pages
+$id = 16;
+require('./Parametre/Settings.html');
+
+require('./Actions/Sessions.html');
+
+// Page Header
+include('./Includes/Header.html');
+?>
+
+<!-- Image de couverture -->
+<style>
+	:root {
+		--pg-bg-img: url(../../Images/Bg/16.jpg) no-repeat;
+		--light-color: #fff;
+		--pg-bg-color: #95a9b6;
+	}
+</style>
+
+<div role="main" class="main px-3 px-lg-5">
+
+    <div class="page-header py-0 bg-primary px-3 px-xl-0 border-radius-2 p-relative mb-5">
+        <div class="overflow-hidden p-absolute top-0 left-0 bottom-0 h-100 w-100">
+            <div class="custom-el-5 custom-pos-4">
+                <img class="img-fluid opacity-2 opacity-hover-2" src="Images/Icons/waves.svg" alt="">
+            </div>
+        </div>
+        <div class="container p-relative z-index-1 py-2">
+            <div class="row align-items-center py-4">
+                <div class="col-8 col-md-7">
+                    <div class="appear-animation" data-appear-animation="fadeInRightShorter"
+                        data-appear-animation-delay="0">
+                        <span
+                            class="badge bg-color-dark-rgba-10 text-light rounded-pill text-uppercase font-weight-semibold text-2-5 px-3 py-2 px-4 mb-3"><span
+                                class="d-inline-flex py-1 px-2">Authentification</span></span>
+                    </div>
+                    <div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="200">
+                        <h1 class="text-light text-9 text-lg-12 font-weight-semibold line-height-1 mb-2 text-shadow">Se connecter</h1>
+                    </div>
+                    <div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="200">
+                        <ul class="breadcrumb d-flex text-3 font-weight-semi-bold pb-2 mb-3">
+                            <li><a href="#" class="text-light text-decoration-none">Accueil</a></li>
+                            <li class="active text-color-light opacity-6">Se connecter</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4 col-md-5 p-relative">
+                    <div class="opacity-3 p-absolute w-100 rotate-r-50 custom-pos-5 d-none d-lg-block">
+                        <img src="Images/Icons/abstract-bg-1.svg" alt="" data-icon
+                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-secondary w-100'}" />
+                    </div>
+                    <div class="custom-mask-img custom-mask-img-4 custom-el-6">
+                        <img src="Images/Bg/generic-11.jpg" loading="lazy" class="img-fluid" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="bg-grey-100 border-radius-2 h-auto container appear-animation fadeInUpShorter" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
+	<div class="p-2 p-md-5 row gris-div-scale cards-container d-flex justify-content-center justify-content-xl-between w-100 mb-5 mx-0 p-relative top-0">
+			<div class="col-md-6 col-lg-6 mb-5 mb-lg-0 pr-2">
+				<h3 class="font-weight-bold text-5 mb-0">Connectez-vous à votre compte</h3>
+				<form action="./Recherche-contrat.html" method="post" class="login-form" novalidate="novalidate">
+
+					<div class="mt-4">
+					</div>
+
+					<div class="row">
+						<div class="form-group col">
+							<label class="form-label text-color-dark text-3">Nom d'utilisateur <span class="text-color-danger">*</span></label>
+							<input type="text" value="" name="lo_username" id="lo_username" class="form-control form-control-lg text-4" required="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col">
+							<label class="form-label text-color-dark text-3">Mot de passe <span class="text-color-danger">*</span></label>
+							<input type="password" value="" name="lo_password" id="lo_password" class="form-control form-control-lg text-4" required="">
+						</div>
+					</div>
+					<div class="row justify-content-between">
+						<div class="form-group col-md-auto">
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="rememberme">
+								<label class="form-label custom-control-label cur-pointer text-2" for="rememberme">Souviens-toi de moi </label>
+							</div>
+						</div>
+						<div class="form-group col-md-auto">
+							<a class="text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-2" href="#">Mot de passe oublié? </a>
+						</div>
+					</div>
+					<div class="row">
+                        <div class="form-group col">
+                            <button type="submit"
+                                class="btn btn-rounded w-100 btn-dark box-shadow-7 font-weight-medium btn-swap-1"
+                                data-clone-element="1" name="submit_login">
+                                <span>Se connecter <i class="fa-solid fa-arrow-right ms-2 p-relative left-10"></i></span>
+                            </button>
+                        </div>
+                    </div>
+				</form>
+			</div>
+			<div class="col-md-6 col-lg-6 pl-2 d-sm-none d-none d-md-block">
+				<img src="./Images/Bg/17.png" style="border-radius: 50px;padding: 8px 23px;max-height: 337px;opacity: 0.6;" />
+			</div>
+	</div>
+</div>
+
+
+</div>
+
+<?php
+// Page Footer
+include('./Includes/Footer.html');
+?>

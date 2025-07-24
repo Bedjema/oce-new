@@ -1,0 +1,87 @@
+<?php
+// configuration des pages
+$id = 14;
+require('./Parametre/Settings.html');
+
+require('./Actions/Sessions.html');
+
+// Page Header 
+include('./Includes/Header.html');
+?>
+
+<div role="main" class="main px-3 px-lg-5">
+
+    <div class="page-header py-0 bg-tertiary px-3 px-xl-0 border-radius-2 p-relative mb-5">
+        <div class="overflow-hidden p-absolute top-0 left-0 bottom-0 h-100 w-100">
+            <div class="custom-el-5 custom-pos-4">
+                <img class="img-fluid opacity-2 opacity-hover-2" src="Images/Icons/waves.svg" alt="">
+            </div>
+        </div>
+        <div class="container p-relative z-index-1 py-2">
+            <div class="row align-items-center py-4">
+                <div class="col-8 col-md-7">
+                    <div class="appear-animation" data-appear-animation="fadeInRightShorter"
+                        data-appear-animation-delay="0">
+                        <span
+                            class="badge bg-color-dark-rgba-30 text-light rounded-pill text-uppercase font-weight-semibold text-2-5 px-3 py-2 px-4 mb-3"><span
+                                class="d-inline-flex py-1 px-2">Réclamations</span></span>
+                    </div>
+                    <div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="200">
+                        <h1 class="text-light text-9 text-lg-12 font-weight-semibold line-height-1 mb-2 text-shadow">Réclamations
+                        </h1>
+                    </div>
+                    <div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="200">
+                        <ul class="breadcrumb d-flex text-3-5 font-weight-semi-bold pb-2 mb-3">
+                            <li><a href="#" class="text-light text-decoration-none">Accueil</a></li>
+                            <li class="active text-color-light opacity-6">Réclamations</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4 col-md-5 p-relative">
+                    <div class="opacity-3 p-absolute w-100 rotate-r-50 custom-pos-5 d-none d-lg-block">
+                        <img src="Images/Icons/abstract-bg-1.svg" alt="" data-icon
+                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-secondary w-100'}" />
+                    </div>
+                    <div class="custom-mask-img custom-mask-img-4 custom-el-6">
+                        <img src="Images/Bg/8.jpg" loading="lazy" class="img-fluid" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-3">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+
+                <p class="text-left">
+                    Votre interlocuteur privilégié pour la gestion des réclamations est le courtier.
+                    <br><br>Le cas échéant, vous avez la possibilité
+                    de contacter Océaliz en vous adressant :
+                    <br><br>Par courrier: Service Réclamation Océaliz, à l'attention du Responsable Réclamation :
+                    OCEALIZ SAS, Tour Sécid, Place de la Rénovation, 97110 Pointe-à-Pitre.
+                    <br><br>Par email: <a href="mailto:reclamations@ocealiz.fr">reclamations@ocealiz.fr</a>
+                    <br><br>Nous nous engageons à accuser réception de votre réclamation sous dix jours et à vous
+                    envoyer une réponse dans les deux mois à compter de la réception de la totalité des éléments de
+                    votre réclamation.
+                    <br><br>Si la réponse apportée ne vous a pas donné satisfaction, vous avez la possibilité de
+                    contacter le Médiateur de l’Assurance à partir du site : <a
+                        href="https://www.mediation-assurance.org/"
+                        target="_blank">https://www.mediation-assurance.org/</a>, par mail : <a
+                        href="mailto:le-mediateur@mediation-assurance.org">le-mediateur@mediation-assurance.org</a> ou
+                    par courrier simple adressé à :
+                    LA MEDIATION de L’ASSURANCE POLE PLANETE CSCA, TSA 50110, 75441 PARIS cedex 09. L'organisme en
+                    charge de notre activité est l'ACPR, l'autorité de contrôle prudentiel et de résolution: 4 Place de
+                    Budapest CS 92459, 75436 Paris Cedex 09.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<?php
+// Page Footer
+include('./Includes/Footer.html');
+?>
