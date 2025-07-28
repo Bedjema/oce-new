@@ -1,14 +1,146 @@
-<?php
-// configuration des pages
-$id = 9;
-require('./Parametre/Settings.html');
+<!DOCTYPE html>
+<html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://schema.org/WebPage"
+	data-style-switcher-options="{'changeLogo': false, 'borderRadius': 0, 'colorPrimary': '#4be296', 'colorSecondary': '#2e895b', 'colorTertiary': '#1f2f28', 'colorQuaternary': '#f7f0e7'}"
+	class="webkit chrome win js sticky-header-enabled sticky-header-scroll-direction sticky-header-scroll-up">
 
-require('./Actions/Sessions.html');
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
-// Page Header
-include('./Includes/Header.html'); 
-?>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+	<link rel="icon" href="./Images/Icons/favicon.png" type="image/x-icon" />
+
+	
+		<title>Ocealiz - Rejoignez l’équipe</title>
+		<meta content="Rejoignez l’équipe" name="title">
+		<meta content="" name="keywords" />
+		<meta content="" name="description" />
+
+	
+	<link href='http://localhost/ocealiz-new/Rejoignez-equipe.html' rel="canonical" />
+
+	<!-- open graph tags -->
+	<meta content='./Images/logo.png' property='og:image' />
+	<meta content='http://localhost/ocealiz-new/Rejoignez-equipe.html' property='og:url' />
+	<meta content='Rejoignez l’équipe' property='og:title' />
+	<meta content='' property='og:description' />
+
+	<!-- robots tags -->
+	<meta content='All' name='Robots' />
+	<meta content='index, follow' name='robots' />
+	<meta content='index, follow' name='GOOGLEBOT' />
+	<meta content='index, follow' name='yahooBOT' />
+	<meta content='index, follow' name='bingbot' />
+
+	<link rel="stylesheet" href="./Template/Css/bootstrap.min.css">
+	<link rel="stylesheet" href="./Template/Css/all.min.css">
+	<link rel="stylesheet" href="./Template/Css/animate.compat.css">
+	<link rel="stylesheet" href="./Template/Css/simple-line-icons.min.css">
+	<link rel="stylesheet" href="./Template/Css/owl.carousel.min.css">
+	<link rel="stylesheet" href="./Template/Css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="./Template/Css/magnific-popup.min.css">
+
+	<link rel="stylesheet" href="./Template/Css/theme.css">
+	<link rel="stylesheet" href="./Template/Css/theme-elements.css">
+	<link rel="stylesheet" href="./Template/Css/theme-blog.css">
+
+	<link rel="stylesheet" href="./Template/Css/custom.css">
+
+		<script src="https://www.google.com/recaptcha/api.js?render=6LfrMeIhAAAAAFBqj1L74ZRoTa3v3XAw2VCKnl4g"></script>
+
+</head>
+
+<body class="alternative-font-4">
+	<div class="loading-overlay" style="background-color: rgb(255, 255, 255); border-radius: 0px;">
+		<div class="bounce-loader">
+			<div class="wrapper-pulse">
+				<div class="cssload-pulse-loader"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="body">
+		<header id="header"
+			data-plugin-options="{'stickyScrollUp': true, 'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': false, 'stickyStartAt': 100, 'stickyHeaderContainerHeight': 100}"
+			style="height: 103px;">
+			<div class="header-body border-top-0 h-auto box-shadow-none" style="position: fixed; top: 0px;">
+				<div class="container-fluid px-3 px-lg-5 p-static">
+					<div class="row align-items-center py-2">
+						<div class="col-auto col-lg-2 col-xxl-3 me-auto me-lg-0">
+							<div class="header-logo" data-clone-element-to="#offCanvasLogo">
+								<a href="./index.html">
+									<img alt="" width="145" height="72" src="./Images/logo.png"
+										data-img-suffix-primary="">
+								</a>
+							</div>
+						</div>
+						<div class="col-auto col-lg-8 col-xxl-6 justify-content-lg-center">
+							<div class="header-nav header-nav-links justify-content-lg-center">
+								<div
+									class="header-nav-main header-nav-main-text-capitalize header-nav-main-arrows header-nav-main-effect-2">
+									<nav class="collapse">
+										<ul class="nav nav-pills" id="mainNav">
+											<li class="dropdown">
+												<a href="#" class="nav-link dropdown-toggle">A propos<i
+														class="fas fa-chevron-down"></i></a>
+												<ul class="dropdown-menu">
+													<li><a href="./Nos-partenaires.html"
+															class="dropdown-item anim-hover-translate-right-5px transition-3ms bg-transparent text-color-hover-primary text-lg-2 py-lg-2">Nos partenaires</a>
+													</li>
+													<li><a href="./Presentation-du-groupe.html"
+															class="dropdown-item anim-hover-translate-right-5px transition-3ms bg-transparent text-color-hover-primary text-lg-2 py-lg-2">Notre
+															histoire</a>
+													</li>
+													<li><a href="./Nos-valeurs.html"
+															class="dropdown-item anim-hover-translate-right-5px transition-3ms bg-transparent text-color-hover-primary text-lg-2 py-lg-2">Nos
+															valeurs</a>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a class="nav-link" href="./Courtiers-en-assurance.html">
+													Nos produits
+												</a>
+											</li>
+											<li>
+												<a class="nav-link" href="./Actualites.html">
+													Actualités
+												</a>
+											</li>
+											<li>
+												<a class="nav-link" href="./Contactez-nous.html">
+													Contactez-nous
+												</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto col-lg-2 col-xxl-3">
+							<div class="d-flex justify-content-end align-items-center">
+								<div class="d-none d-sm-flex d-lg-none d-xxl-flex mt-1">
+									<img itemprop="logo" width="70" src="./Images/Icons/isae-head.png"
+										alt="ISAE 3402" title="ISAE 3402" class="mx-1">
+									<img itemprop="logo" width="70" src="./Images/Icons/label.png"
+										alt="Label platinum" title="Label platinum">
+								</div>
+								<a href="./Devenir-partenaire.html"
+									class="btn btn-rounded btn-dark box-shadow-7 font-weight-medium px-3 py-2 text-2-5 btn-swap-1 ms-3 d-none d-md-flex"
+									data-clone-element="1">
+									<span>Devenir partenaire ocealiz <i class="fa-solid fa-arrow-right ms-2"></i></span>
+								</a>
+								<button class="btn header-btn-collapse-nav  rounded-pill" data-bs-toggle="offcanvas"
+									href="#offcanvasMain" role="button" aria-controls="offcanvasMain">
+									<i class="fas fa-bars"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 <!-- Image de couverture -->
 <style>:root {--pg-bg-img: url(../../Images/Bg/13.jpg) no-repeat;--light-color : #ffffff;--pg-bg-color : #d4bfac;}</style>
 
@@ -61,10 +193,385 @@ include('./Includes/Header.html');
 		</div>
 	</div>
 </section>
-<?php 
-// Avantages - Section
-include('./Includes/Avantages.html');
+<div class="container">
+        <div class="row align-items-center py-5">
+            <div class="col-lg-7 mb-5 mb-lg-0 pe-lg-5">
+                <div class="appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="0"
+                    style="animation-delay: 0ms;">
+                    <span
+                        class="badge bg-gradient-light-primary-rgba-20 text-secondary rounded-pill text-uppercase font-weight-semibold text-2-5 px-3 py-2 px-4 mb-4"><span
+                            class="d-inline-flex py-1 px-2">Avantages</span></span>
+                </div>
+                <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200"
+                    style="animation-delay: 200ms;">
+                    <h2 class="text-9 text-lg-12 font-weight-semibold line-height-1 mb-4">Les avantages Ocealiz</h2>
+                </div>
+                <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400"
+                    style="animation-delay: 400ms;">
+                    <p>Avec Océaliz, vous bénéficiez de services pensés pour les courtiers : proximité terrain, gestion intégrale facilitée, et des solutions compétitives alliant performance et économies.</p>
+                </div>
+                <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
+                    <div class="d-flex pt-3 align-items-center">
+                        <a href="./Nos-valeurs.html"
+                            class="btn btn-rounded btn-dark box-shadow-7 font-weight-medium btn-swap-1"
+                            data-clone-element="1">
+                            <span>En savoir plus <i class="fa-solid fa-arrow-right ms-2 p-relative left-10"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 p-relative">
+                <div class="card card-custom-1 my-3">
+                    <div class="card-body py-2">
+                        <div class="d-flex flex-row">
+                            <div class="pt-4">
+                                <div class="custom-icon-style-1 mb-4">
+                                    <img width="50" src="./Images/Icons/plocal_icon.png" alt=""
+                                        data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                        class="svg-fill-color-primary" style="opacity: 1; width: 50px;">
+                                </div>
+                            </div>
+                            <div class="ps-4">
+                                <h4
+                                    class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4 my-2">
+                                    Une présence locale <br>indispensable pour les courtiers</h4>
+                                <p class="mb-2 text-2 line-height-5">Un accompagnement de proximité pour mieux comprendre et répondre aux besoins des courtiers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-custom-1 my-3">
+                    <div class="card-body py-2">
+                        <div class="d-flex flex-row">
+                            <div class="pt-4">
+                                <div class="custom-icon-style-1 mb-4">
+                                    <img width="50" src="./Images/Icons/dele-icon.png" alt=""
+                                        data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                        class="svg-fill-color-primary" style="opacity: 1; width: 50px;">
+                                </div>
+                            </div>
+                            <div class="ps-4">
+                                <h4
+                                    class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4 my-2">
+                                    Délégation totale de gestion <br>(production et sinistre)</h4>
+                                <p class="mb-2 text-2 line-height-5">Nous gérons intégralement la production et les sinistres pour simplifier votre quotidien.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-custom-1 my-3">
+                    <div class="card-body py-2">
+                        <div class="d-flex flex-row">
+                            <div class="pt-4">
+                                <div class="custom-icon-style-1 mb-4">
+                                    <img width="50" src="./Images/Icons/mei-icon.png" alt=""
+                                        data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                        class="svg-fill-color-primary" style="opacity: 1; width: 50px;">
+                                </div>
+                            </div>
+                            <div class="ps-4">
+                                <h4
+                                    class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4 my-2">
+                                    Meilleur rapport<br>qualité/ prix</h4>
+                                <p class="mb-2 text-2 line-height-5">Des offres performantes et accessibles, pensées pour optimiser vos coûts sans compromis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-// Page Footer
-include('./Includes/Footer.html'); 
-?>
+<!-- <section class="bg-secondary border-radius-2 p-relative overflow-hidden mt-5 pb-5 pt-3 mb-xl-5">
+    <div class="container">
+        <div class="row pt-4 text-center">
+            <div class="col">
+                <div class="appear-animation" data-appear-animation="fadeInRightShorter"
+                    data-appear-animation-delay="0">
+                    <span
+                        class="badge bg-color-dark-rgba-10 text-light rounded-pill text-uppercase font-weight-semibold text-2-5 px-3 py-2 px-4 mb-3"><span
+                            class="d-inline-flex py-1 px-2">Avantages</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-4">
+            <div class="col text-center">
+                <div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="200"
+                    style="animation-delay: 200ms;">
+                    <h2 class="text-9 text-lg-12 font-weight-semibold line-height-1 mb-4">Les avantages Ocealiz</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-4 col-lg-4 text-center wow zoomIn" data-wow-duration=".2s" data-wow-delay=".1s">
+                <div class="mb-10 mb-sm-4">
+                    <img class="h-auto mx-90" src="./Images/Icons/plocal_icon.png" alt="" />
+                    <p class="mt-6 font-weight-semibold text-dark line-height-4 mt-3">Une présence locale indispensable
+                        <br>pour les courtiers</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 text-center wow zoomIn" data-wow-duration=".3s" data-wow-delay=".2s">
+                <div class="mb-10 mb-sm-4">
+                    <img class="h-auto mx-90" src="./Images/Icons/dele-icon.png" alt="" />
+                    <p class="mt-6 font-weight-semibold text-dark line-height-4 mt-3">Délégation totale de gestion
+                        <br>(production et sinistre)</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 text-center wow zoomIn" data-wow-duration=".4s" data-wow-delay=".3s">
+                <div class="mb-10 mb-sm-4">
+                    <img class="h-auto mx-90" src="./Images/Icons/mei-icon.png" alt="" />
+                    <p class="mt-6 font-weight-semibold text-dark line-height-4 mt-3">Meilleur rapport <br>qualité/ prix
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="appear-animation fadeInUpShortere"
+            data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
+            <div class="text-center">
+                <a href="./Devenir-partenaire.html" class="btn btn-rounded btn-dark box-shadow-7 font-weight-medium btn-swap-1 mt-4"
+                    data-clone-element="1">
+                    <span>Devenir partenaire <i class="fa-solid fa-arrow-right ms-2 p-relative left-10"></i></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section> --><footer id="footer" class="border-0 bg-light px-3 px-lg-5 pt-0 text-3 ">
+    <div class="border-bottom border-bottom-color-grey-100">
+        <div class="container">
+            <div class="row align-items-center pb-sm-2 pb-md-4">
+                <div class="col-lg-3">
+                    <a href="./index.html">
+                        <img alt="Ocealiz" width="161" src="./Images/logo.png" data-img-suffix-primary="">
+                    </a>
+                </div>
+                <div class="col-lg-9 pt-4 pt-lg-0">
+                    <div class="d-flex flex-column flex-lg-row justify-content-lg-end py-4 align-items-lg-center">
+                        <div class="pe-4">
+                            <div class="feature-box feature-box-secondary align-items-center">
+                                <div class="feature-box-icon feature-box-icon-lg p-static box-shadow-7">
+                                    <div class="animated-icon animated fadeIn text-6">
+                                        <i class="icon-screen-smartphone"></i>
+                                    </div>
+                                </div>
+                                <div class="feature-box-info ps-2">
+                                    <strong
+                                        class="d-block text-uppercase text-color-secondary p-relative top-2">APPELEZ-NOUS</strong>
+                                    <a href="tel:0590227871"
+                                        class="text-decoration-none font-secondary text-5 font-weight-semibold text-color-dark text-color-hover-primary transition-2ms negative-ls-05 ws-nowrap p-relative bottom-2">05
+                                        90 22 78 71</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" pt-4 pt-lg-0 pe-0">
+                            <div class="feature-box feature-box-secondary align-items-center">
+                                <div class="feature-box-icon feature-box-icon-lg p-static box-shadow-7">
+                                    <div class="animated-icon animated fadeIn text-6">
+                                        <i class="icon-envelope-letter"></i>
+                                    </div>
+                                </div>
+                                <div class="feature-box-info ps-2">
+                                    <strong
+                                        class="d-block text-uppercase text-color-secondary p-relative top-2">E-mail</strong>
+                                    <a href="mailto:contact@ocealiz.fr"
+                                        class="text-decoration-none font-secondary text-5 font-weight-semibold text-color-dark text-color-hover-primary transition-2ms negative-ls-05 ws-nowrap p-relative bottom-2">contact@ocealiz.fr</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pb-lg-4 pt-lg-5 pt-3">
+        <div class="row pt-3">
+            <div class="col-lg-4 col-sm-6 pt-sm-3">
+                <h4 class="text-color-dark font-weight-bold mb-3">Ocealiz - <span class="text-1">Group leader
+                        assurances</span></h4>
+                <div class="footer-block mb-2 line-height-2">
+                    <i class="fa fa-map-marker p-1"></i>
+                    <p itemprop="address" class="text-3 mb-0 text-color-grey" itemscope=""
+                        itemtype="http://schema.org/PostalAddress"><span
+                            class="text-uppercase text-color-dark text-shadow fst-italic text-2 footer-ttl">Adresse</span> : OCEALIZ
+                        SAS, Tour Sécid, Place de la
+                        Rénovation, 97110 Pointe-à-Pitre</p>
+                </div>
+
+                <div class="footer-block mb-2 line-height-2">
+                    <i class="fa fa-phone p-1"></i>
+                    <p itemprop="tel" class="text-3 mb-0" itemscope="" itemtype="http://schema.org/PostalAddress"><span
+                            class="text-uppercase text-color-dark text-shadow fst-italic text-2 footer-ttl">Tel</span> :
+                        <a class="text-color-grey" itemprop="telephone" title="Téléphone" href="tel:0590227871">05 90 22
+                            78 71</a>
+                    </p>
+                </div>
+
+                <div class="footer-block mb-2 line-height-2">
+                    <i class="fa fa-fax p-1"></i>
+                    <p itemprop="fax" class="text-3 mb-0" itemscope="" itemtype="http://schema.org/PostalAddress"><span
+                            class="text-uppercase text-color-dark text-shadow fst-italic text-2 footer-ttl">Fax</span> :
+                        <a class="text-color-grey" itemprop="fax" title="fax" href="tel:0590682816">05 90 68 28 16</a>
+                    </p>
+                </div>
+
+                <div class="footer-block mb-2 line-height-2">
+                    <i class="fa fa-envelope p-1"></i>
+                    <p itemprop="email" class="text-3 mb-0" itemscope="" itemtype="http://schema.org/PostalAddress">
+                        <span class="text-uppercase text-color-dark text-shadow fst-italic text-2 footer-ttl">E-mail</span> :
+                        <a class="text-color-grey" itemprop="email" title="email"
+                            href="mailto:contact@ocealiz.fr">contact@ocealiz.fr</a>
+                    </p>
+                </div>
+
+                <ul class="social-icons social-icons-clean social-icons-medium mt-3">
+                    <li class="social-icons-facebook">
+                        <a href="https://www.facebook.com/OCEALIZ-101920639215909" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="social-icons-linkedin">
+                        <a href="https://www.linkedin.com/company/ocealiz-sas/" target="_blank" title="Linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-sm-6 pt-4 pt-sm-3">
+                <h4 class="text-color-dark font-weight-bold mb-3">A Propos</h4>
+                <ul class="list list-unstyled">
+                    <li class="mb-1">
+                        <a href="./Presentation-du-groupe.html" class="text-color-grey text-color-hover-primary">Notre
+                            histoire</a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="text-color-grey text-color-hover-primary" href="./Nos-valeurs.html">
+                            Nos valeurs
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="text-color-grey text-color-hover-primary" href="./Nos-partenaires.html">
+                            Nos partenaires
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-sm-6 pt-4 pt-sm-3">
+                <h4 class="text-color-dark font-weight-bold mb-3">Lien utile</h4>
+                <ul class="list list-unstyled">
+                    <li class="mb-1"><a href="./Courtiers-en-assurance.html"
+                            class="text-color-grey text-color-hover-primary">Nos
+                            produits</a></li>
+                    <li class="mb-1"><a href="./Actualites.html"
+                            class="text-color-grey text-color-hover-primary">Actualités</a></li>
+                    <li class="mb-1"><a href="./Devenir-partenaire.html"
+                            class="text-color-grey text-color-hover-primary">Devenir
+                            partenaire</a>
+                    </li>
+                    <li class="mb-1"><a href="./Contactez-nous.html"
+                            class="text-color-grey text-color-hover-primary">Contactez-nous</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-sm-6 pt-4 pt-sm-3">
+                <h4 class="text-color-dark font-weight-bold mb-3">Horaires de l'accueil telephonique :</h4>
+
+                <div class="footer-block mb-2 line-height-2">
+                    <i class="fa fa-calendar p-1"></i>
+                    <p class="text-3 mb-0 text-color-grey"><span
+                            class="text-uppercase text-color-dark text-shadow fst-italic text-2 footer-ttl">Jours</span>: Lundi,
+                        Mardi, Jeudi et Vendredi</p>
+                </div>
+
+                <div class="footer-block mb-2">
+                    <div class="row">
+                        <i class="fa fa-clock p-1"></i>
+                        <div class="col-sm-2"><span
+                                class="text-uppercase text-color-dark text-shadow fst-italic text-2 footer-ttl">Heure</span>:</div>
+                        <div class="col-sm-9 text-color-grey">
+                            <span>De 08h 00 à 12h 00</span>
+                            <br>
+                            <span>De 14h 00 à 16h 00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-block mb-2 line-height-2">
+                    <i class="fa fa-calendar p-1"></i>
+                    <p class="text-3 mb-0 text-color-grey"><span
+                            class="text-uppercase text-color-dark text-shadow fst-italic text-2 footer-ttl">Jours</span>: Lundi,
+                        Mardi, Jeudi et Vendredi</p>
+                </div>
+
+                <div class="footer-block mb-2">
+                    <div class="row">
+                        <i class="fa fa-clock p-1"></i>
+                        <div class="col-sm-2"><span
+                                class="text-uppercase text-color-dark text-shadow fst-italic text-2 footer-ttl">Heure</span>:</div>
+                        <div class="col-sm-9 text-color-grey">
+                            <span>De 08h 00 à 12h 00</span>
+                            <br>
+                            <span>De 14h 00 à 16h 00</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright bg-transparent pb-5">
+        <div class="container">
+            <hr>
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-start py-3">
+                    <p class="text-3 mb-0 opacity-6">Copyright @ 2018 | All right reserved.<a href="#" target="_blank"
+                            class="text-decoration-underline text-color-secondary text-color-hover-primary"></a>
+                    </p>
+                </div>
+                <div class="col-lg-6 py-3 text-center text-lg-end">
+                    <a href="./Protection-des-donnees-personnelles.html"
+                        class="text-color-grey text-color-hover-primary">Protection des données
+                        personnelles</a>
+                    <a href="./Mentions-legales.html" class="text-color-grey text-color-hover-primary ms-3">Mentions
+                        légales</a>
+                    <a href="./Reclamations.html" class="text-color-grey text-color-hover-primary ms-3">Réclamations</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasMain"
+    aria-labelledby="offcanvasMain">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fermer"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="mb-4" id="offCanvasLogo"></div>
+        <nav class="offcanvas-nav w-100" id="offCanvasNav">
+            <ul class="nav flex-column w-100"></ul>
+        </nav>
+
+        <a href="./Devenir-partenaire.html"
+            class="btn btn-rounded btn-dark box-shadow-7 font-weight-medium px-3 py-2 text-2-5 btn-swap-1 mt-3"
+            data-clone-element="1">
+            <span>Devenir partenaire ocealiz <i class="fa-solid fa-arrow-right ms-2"></i></span>
+        </a>
+
+        <div class="mt-3">
+            <img itemprop="logo" width="70" src="./Images/Icons/isae-head.png" alt="ISAE 3402" title="ISAE 3402"
+                class="mx-1">
+            <img itemprop="logo" width="70" src="./Images/Icons/label.png" alt="Label platinum" title="Label platinum">
+        </div>
+
+    </div>
+</div>
+</div>
+</div>
+
+<script src="./Template/Js/plugins.min.js"></script>
+<script src="./Template/Js/theme.js"></script>
+<script src="./Template/Js/theme.init.js"></script>
+<a class="scroll-to-top hidden-mobile" href="#" aria-label="Scroll To Top"><i class="fas fa-chevron-up"></i></a>
+<script src="./Template/Js/view.contact.js"></script>
+</body>
+
+</html>

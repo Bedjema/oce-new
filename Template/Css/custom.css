@@ -5939,3 +5939,7 @@ article.post {
 .nav-blue {
     background: #081042 !important;
 }
+
+.carousel-half-full-width-wrapper .thumb-info {
+    min-height: 390px !important;
+}
